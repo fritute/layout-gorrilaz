@@ -2,20 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: blue;
+    color: green;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul, ol, li{
+    list-style: none;
 }
 header{
-    height: 9vh;
+    height: 7vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
-    background-color: aqua;
+   
 }
 main{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-inline: 80px;
     background-color: black;
 }
 footer{
@@ -23,11 +33,18 @@ footer{
     background-color: blueviolet;
 }
 .image{
-    height: 90vh;
+    height: 100%;
     width: 90vh;
     background-image: url(./img/gorrilaz\ rosa.jpg);
     background-color: pink;
     background-size: cover;
     display: flex;
     position: absolute;
+}
+.menu{
+    gap: 600px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
 }
