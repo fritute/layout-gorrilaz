@@ -5,9 +5,29 @@
     color: blue;
 }
 header{
-    height: 100vh;
+    height: 9vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
     background-color: aqua;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: black;
+}
+footer{
+    height: 10vh;
+    background-color: blueviolet;
+}
+.image{
+    height: 90vh;
+    width: 90vh;
+    background-image: url(./img/gorrilaz\ rosa.jpg);
+    background-color: pink;
+    background-size: cover;
+    display: flex;
+    position: absolute;
 }
