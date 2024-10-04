@@ -5,7 +5,10 @@
     color: white;
     
 }
-
+p{
+    height: 100%;
+    width: 100%;
+}
 
 a {
     text-decoration: none;
@@ -40,11 +43,33 @@ footer{
     height: 10vh;
     background-color: blueviolet;
 }
-.integrantes{
-    border-radius: 50%;
-    background-color: aquamarine;
-    justify-content: space-evenly;
-}
+.integrantes {
+    text-align: right;
+    margin-left: -13%;
+    margin-top: -2%;
+  
+    
+    width: 100%;
+    
+  }
+  
+  .integrante {
+    display: inline-block;
+    margin-right: 20px; 
+    margin-top: 45%;
+  }
+  
+  .integrante img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+  }
+  
+  .integrante p {
+    text-align: center; 
+    font-size: 18px; 
+  }
 .image{
     height: 100%;
     width: 90vh;
@@ -62,14 +87,23 @@ footer{
     
 }
 .direita {
-    display: flex;
-    justify-content: center;
-    align-items: cent;
-    height: 100%; 
+    right: 0;
+    position: absolute;
+    margin-left: 50%;
     
   }
-.direita baixar{
-    
+  
+  .direita p{
+    font-size: 36px; /* or any other large font size */
+  }
+.spotify{
+    position: absolute;
+    top: 0;
+    margin-top: 400px;
+    margin-left: 400px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    
+   
+
 }
